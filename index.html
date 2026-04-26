@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Karim Khaled Elorby — AI Engineer specializing in Computer Vision and Generative AI. Real-time vision systems, edge AI, and production ML." />
+  <meta name="author" content="Karim Khaled Elorby" />
+  <meta name="theme-color" content="#0a0c12" />
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:title" content="Karim Khaled Elorby — AI Engineer" />
+  <meta property="og:description" content="AI Engineer · Computer Vision & Generative AI. Applied AI Systems Engineering." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <title>Karim Elorby — AI Engineer · Computer Vision &amp; Generative AI</title>
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="apple-touch-icon" href="assets/favicon.svg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Background ambient gradient -->
+  <div class="ambient" aria-hidden="true">
+    <div class="ambient__orb ambient__orb--1"></div>
+    <div class="ambient__orb ambient__orb--2"></div>
+    <div class="ambient__orb ambient__orb--3"></div>
+    <div class="ambient__grid"></div>
+  </div>
+
+  <!-- ================ NAV ================ -->
+  <header class="nav" id="nav">
+    <a href="#top" class="nav__brand" aria-label="Karim Elorby — Home">
+      <span class="nav__logo">K.</span>
+      <span class="nav__brandText">Elorby</span>
+    </a>
+    <nav class="nav__menu" id="navMenu" aria-label="Primary">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a class="nav__resume" href="https://drive.google.com/file/d/1KDeYkO29JiqG7Wy4TeqXq-px21vLuPEA/view" target="_blank" rel="noopener">Resume ↗</a>
+    </nav>
+    <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main id="top">
+    <!-- ================ HERO ================ -->
+    <section class="hero">
+      <div class="hero__col hero__col--text">
+        <span class="hero__pill">
+          <span class="hero__pillDot"></span>
+          Available for AI Engineer roles · Cairo &amp; Remote
+        </span>
+        <h1 class="hero__title">
+          Applied <span class="grad">AI Systems</span><br />
+          <span class="grad-2">Engineering</span>.
+        </h1>
+        <p class="hero__role">
+          <span class="hero__roleStatic">I'm Karim — </span>
+          <span class="hero__typed" id="typed" aria-live="polite"></span>
+          <span class="hero__caret" aria-hidden="true"></span>
+        </p>
+        <p class="hero__sub">
+          AI Engineer turning research-grade computer-vision and
+          generative-AI models into <strong>real-time pipelines</strong>, <strong>edge deployments</strong>,
+          and products people actually use.
+        </p>
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="#projects">
+            View Projects
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+          <a class="btn btn--ghost" href="#contact">Contact Me</a>
+          <a class="btn btn--link" href="https://drive.google.com/file/d/1KDeYkO29JiqG7Wy4TeqXq-px21vLuPEA/view" target="_blank" rel="noopener">
+            Download Resume
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          </a>
+        </div>
+
+      </div>
+
+      <div class="hero__col hero__col--photo">
+        <div class="photo">
+          <div class="photo__halo"></div>
+          <div class="photo__frame">
+            <img id="heroPhoto" src="assets/profile.jpeg" alt="Karim Khaled Elorby" loading="eager" />
+            <div class="photo__fallback" aria-hidden="true">KE</div>
+          </div>
+          <div class="photo__badge photo__badge--top">
+            <span class="photo__badgeIcon">⚡</span>
+            <span>Real-time CV</span>
+          </div>
+          <div class="photo__badge photo__badge--bottom">
+            <span class="photo__badgeIcon">🧠</span>
+            <span>Gen-AI</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================ ABOUT ================ -->
+    <section class="section" id="about">
+      <header class="section__head">
+        <span class="section__kicker">01 — About me</span>
+        <h2 class="section__title">Engineer first. <span class="grad">AI second.</span></h2>
+        <p class="section__lede">
+          AI Engineer specializing in <strong>computer vision</strong> and <strong>real-time AI systems</strong>,
+          with a strong focus on building and deploying <strong>production-ready solutions</strong>.
+        </p>
+      </header>
+
+      <div class="about">
+        <div class="about__copy">
+          <p>
+            My work combines <strong>model development</strong> with <strong>scalable pipelines</strong>,
+            <strong>edge deployment</strong>, and efficient system integration.
+          </p>
+          <p>
+            I'm particularly interested in <em>Generative AI</em> and continuously developing my skills
+            to design intelligent systems that operate reliably in real-world environments.
+          </p>
+
+          <ul class="about__highlights">
+            <li>
+              <span class="about__highlightIcon">🎯</span>
+              <div>
+                <h4>Real-time computer vision</h4>
+                <p>Multi-camera detection, tracking, and motion-analytics pipelines built for 24/7 reliability — not lab demos.</p>
+              </div>
+            </li>
+            <li>
+              <span class="about__highlightIcon">🛰️</span>
+              <div>
+                <h4>Edge &amp; embedded AI</h4>
+                <p>YOLO inference shipped to constrained hardware with sensor &amp; actuator integration — pixel to physical action.</p>
+              </div>
+            </li>
+            <li>
+              <span class="about__highlightIcon">🔗</span>
+              <div>
+                <h4>Production ML systems</h4>
+                <p>Kafka streaming, FastAPI services, TimescaleDB time-series — the layers that turn a notebook into a product.</p>
+              </div>
+            </li>
+            <li>
+              <span class="about__highlightIcon">✨</span>
+              <div>
+                <h4>Generative AI &amp; vector search</h4>
+                <p>RAG, embeddings, and vector databases — actively building Gen-AI features into existing products.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================ SKILLS ================ -->
+    <section class="section" id="skills">
+      <header class="section__head">
+        <span class="section__kicker">02 — Technical skills</span>
+        <h2 class="section__title">The toolkit I <span class="grad">ship with</span>.</h2>
+        <p class="section__lede">
+          Years of focused work on computer-vision pipelines, plus current investment in Gen-AI,
+          streaming systems, and edge inference.
+        </p>
+      </header>
+
+      <div class="skills">
+        <article class="skill">
+          <h3>AI &amp; Machine Learning</h3>
+          <div class="chips">
+            <span>PyTorch</span><span>scikit-learn</span><span>CNNs</span>
+            <span>Transfer Learning</span><span>Model Fine-tuning</span><span>Data Augmentation</span>
+          </div>
+        </article>
+
+        <article class="skill">
+          <h3>Computer Vision</h3>
+          <div class="chips">
+            <span>YOLO v8 / v11</span><span>BoT-SORT</span><span>OpenCV</span>
+            <span>Object Detection</span><span>Tracking</span><span>Segmentation</span>
+            <span>Keypoint Detection</span><span>Optical Flow</span><span>Image Processing</span>
+          </div>
+        </article>
+
+        <article class="skill">
+          <h3>Generative AI &amp; Data</h3>
+          <div class="chips">
+            <span>RAG</span><span>Vector Databases</span><span>Embeddings</span>
+            <span>Prompt Engineering</span><span>Data Analysis</span>
+          </div>
+        </article>
+
+        <article class="skill">
+          <h3>Backend &amp; Streaming</h3>
+          <div class="chips">
+            <span>FastAPI</span><span>Apache Kafka</span><span>TimescaleDB</span>
+            <span>MySQL</span><span>Oracle SQL</span><span>SQLite</span><span>REST APIs</span>
+          </div>
+        </article>
+
+        <article class="skill">
+          <h3>Languages &amp; Tools</h3>
+          <div class="chips">
+            <span>Python</span><span>C#</span><span>SQL</span>
+            <span>Git</span><span>Docker</span><span>Linux</span>
+          </div>
+        </article>
+
+        <article class="skill">
+          <h3>Apps &amp; Edge</h3>
+          <div class="chips">
+            <span>Streamlit</span><span>PyQt6</span><span>Embedded Linux</span>
+            <span>IoT Integration</span><span>Real-time Inference</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ================ PROJECTS ================ -->
+    <section class="section" id="projects">
+      <header class="section__head">
+        <span class="section__kicker">03 — Featured work</span>
+        <h2 class="section__title">Projects that solve <span class="grad">real problems</span>.</h2>
+        <p class="section__lede">
+          Each of these is end-to-end: model + infrastructure + interface. Not notebooks.
+        </p>
+      </header>
+
+      <div class="projects">
+        <article class="project">
+          <div class="project__thumb project__thumb--1">
+            <span class="project__thumbLabel">YOLOv11 · BoT-SORT · Kafka</span>
+            <svg viewBox="0 0 200 120" class="project__thumbArt" aria-hidden="true">
+              <rect x="20" y="40" width="50" height="35" rx="4" fill="rgba(124,92,255,0.25)" stroke="#7c5cff" stroke-width="1.5"/>
+              <rect x="90" y="55" width="60" height="30" rx="4" fill="rgba(45,212,191,0.2)" stroke="#2dd4bf" stroke-width="1.5"/>
+              <rect x="155" y="35" width="35" height="50" rx="4" fill="rgba(255,122,198,0.18)" stroke="#ff7ac6" stroke-width="1.5"/>
+              <line x1="0" y1="100" x2="200" y2="100" stroke="rgba(255,255,255,0.12)" stroke-dasharray="3 4"/>
+              <circle cx="40" cy="105" r="2.5" fill="#7c5cff"/>
+              <circle cx="120" cy="105" r="2.5" fill="#2dd4bf"/>
+              <circle cx="170" cy="105" r="2.5" fill="#ff7ac6"/>
+            </svg>
+          </div>
+          <div class="project__body">
+            <span class="project__year">2026</span>
+            <h3>Real-Time Construction Equipment Tracking</h3>
+            <p>Multi-camera CV platform that detects, tracks, and classifies activity (idle / active / transit) for heavy machinery on-site — answering not just <em>where</em> equipment is, but <em>whether it's working</em>.</p>
+            <ul class="project__tags">
+              <li>YOLOv11</li><li>BoT-SORT</li><li>Kafka</li>
+              <li>FastAPI</li><li>TimescaleDB</li>
+            </ul>
+            <div class="project__links">
+              <a href="https://github.com/KarimElroby7/Real-time-construction-equipment-tracking-system" target="_blank" rel="noopener">View Code →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project__thumb project__thumb--2">
+            <span class="project__thumbLabel">YOLOv8 · NLP · 3D Avatars</span>
+            <svg viewBox="0 0 200 120" class="project__thumbArt" aria-hidden="true">
+              <circle cx="60" cy="55" r="22" fill="rgba(124,92,255,0.2)" stroke="#7c5cff" stroke-width="1.5"/>
+              <path d="M48 55 Q60 78 72 55" fill="none" stroke="#7c5cff" stroke-width="1.5"/>
+              <circle cx="55" cy="50" r="2" fill="#7c5cff"/>
+              <circle cx="65" cy="50" r="2" fill="#7c5cff"/>
+              <path d="M100 60 L130 60 M110 50 L130 60 L110 70" fill="none" stroke="#2dd4bf" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              <rect x="145" y="35" width="40" height="50" rx="6" fill="rgba(45,212,191,0.18)" stroke="#2dd4bf" stroke-width="1.5"/>
+              <text x="165" y="65" text-anchor="middle" font-size="14" fill="#2dd4bf" font-family="serif">ع</text>
+            </svg>
+          </div>
+          <div class="project__body">
+            <span class="project__year">2024 — 2025</span>
+            <h3>Signify — Bidirectional ArSL Translator</h3>
+            <p>Graduation project (graded <strong>Excellent</strong>). YOLOv8l recognizes Arabic Sign Language gestures, a custom auto-correction module produces coherent Arabic, and 3D avatars render the reverse direction on web and mobile.</p>
+            <ul class="project__tags">
+              <li>YOLOv8l</li><li>NLP</li><li>3D Avatars</li>
+              <li>Web</li><li>Mobile</li>
+            </ul>
+            <div class="project__links">
+              <a href="https://github.com/KarimElroby7/signify" target="_blank" rel="noopener">View Code →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project__thumb project__thumb--4">
+            <span class="project__thumbLabel">Python · PyQt6 · Vector DB</span>
+            <svg viewBox="0 0 200 120" class="project__thumbArt" aria-hidden="true">
+              <rect x="25" y="25" width="150" height="70" rx="6" fill="rgba(124,92,255,0.12)" stroke="#7c5cff" stroke-width="1.4"/>
+              <line x1="25" y1="42" x2="175" y2="42" stroke="rgba(255,255,255,0.16)"/>
+              <circle cx="35" cy="33" r="2" fill="#ff7ac6"/>
+              <circle cx="44" cy="33" r="2" fill="#fbbf24"/>
+              <circle cx="53" cy="33" r="2" fill="#2dd4bf"/>
+              <line x1="35" y1="55" x2="120" y2="55" stroke="rgba(255,255,255,0.3)" stroke-width="1.4"/>
+              <line x1="35" y1="65" x2="160" y2="65" stroke="rgba(255,255,255,0.18)"/>
+              <line x1="35" y1="75" x2="100" y2="75" stroke="rgba(255,255,255,0.18)"/>
+              <rect x="135" y="58" width="30" height="22" rx="3" fill="rgba(45,212,191,0.2)" stroke="#2dd4bf" stroke-width="1"/>
+              <text x="150" y="73" text-anchor="middle" font-size="8" fill="#2dd4bf" font-family="JetBrains Mono">SQL</text>
+            </svg>
+          </div>
+          <div class="project__body">
+            <span class="project__year">2025</span>
+            <h3>Pharmacy Management System</h3>
+            <p>Production-ready desktop ERP for independent pharmacies — Python + PyQt6 + SQLite with image-backed catalog, dynamic inventory tables, and a clear upgrade path to vector-DB-powered semantic search and recommendations.</p>
+            <ul class="project__tags">
+              <li>Python</li><li>PyQt6</li><li>SQLite</li><li>Vector DB</li>
+            </ul>
+            <div class="project__links">
+              <a href="https://github.com/KarimElroby7/pharmacy_system" target="_blank" rel="noopener">View Code →</a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <p class="projects__more">
+        More on
+        <a href="https://github.com/KarimElroby7?tab=repositories" target="_blank" rel="noopener">github.com/KarimElroby7 →</a>
+      </p>
+    </section>
+
+    <!-- ================ SERVICES ================ -->
+    <section class="section" id="services">
+      <header class="section__head">
+        <span class="section__kicker">04 — What I deliver</span>
+        <h2 class="section__title">From <span class="grad">model</span> to <span class="grad-2">production</span>.</h2>
+        <p class="section__lede">
+          The services I bring to a team — every one of them backed by a shipped project on this page.
+        </p>
+      </header>
+
+      <div class="services">
+        <article class="service">
+          <span class="service__icon">⚡</span>
+          <h3>Real-Time CV Pipelines</h3>
+          <p>End-to-end vision systems with detection, tracking, and motion analytics — designed for multi-camera throughput and 24/7 reliability.</p>
+        </article>
+        <article class="service">
+          <span class="service__icon">🛰️</span>
+          <h3>Edge &amp; Embedded AI</h3>
+          <p>Models compressed and deployed to constrained hardware. Integration with sensors, actuators, and control logic for hardware-in-the-loop systems.</p>
+        </article>
+        <article class="service">
+          <span class="service__icon">🤖</span>
+          <h3>Generative-AI Features</h3>
+          <p>RAG, embeddings, and vector-DB-powered semantic search bolted into existing products — without throwing the existing stack away.</p>
+        </article>
+        <article class="service">
+          <span class="service__icon">🔗</span>
+          <h3>Production ML Systems</h3>
+          <p>Kafka streaming, FastAPI services, TimescaleDB time-series, Streamlit dashboards. The plumbing that makes a model behave like a product.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ================ CONTACT ================ -->
+    <section class="section" id="contact">
+      <div class="contact">
+        <span class="section__kicker">05 — Let's connect</span>
+        <h2 class="section__title">Get in <span class="grad">touch</span>.</h2>
+
+        <div class="contact__grid">
+          <a class="contact-card" href="mailto:karimelroby20@gmail.com">
+            <div class="contact-card__icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+            </div>
+            <span class="contact-card__label">Email</span>
+            <span class="contact-card__value">karimelroby20@gmail.com</span>
+          </a>
+          <a class="contact-card" href="https://github.com/KarimElroby7" target="_blank" rel="noopener">
+            <div class="contact-card__icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.55v-2.1c-3.2.7-3.87-1.36-3.87-1.36-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.74 2.67 1.24 3.32.95.1-.74.4-1.24.72-1.53-2.55-.29-5.23-1.27-5.23-5.66 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.04 0 0 .96-.31 3.15 1.17a10.96 10.96 0 0 1 5.74 0c2.18-1.48 3.14-1.17 3.14-1.17.62 1.58.23 2.75.12 3.04.74.8 1.18 1.82 1.18 3.07 0 4.4-2.69 5.36-5.25 5.65.41.36.78 1.06.78 2.14v3.17c0 .31.21.66.8.55C20.22 21.39 23.5 17.08 23.5 12 23.5 5.65 18.35.5 12 .5z"/></svg>
+            </div>
+            <span class="contact-card__label">GitHub</span>
+            <span class="contact-card__value">@KarimElroby7</span>
+          </a>
+          <a class="contact-card" href="https://www.linkedin.com/in/karim-elroby/" target="_blank" rel="noopener">
+            <div class="contact-card__icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.95v5.66H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.59 0 4.26 2.36 4.26 5.43v6.31zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg>
+            </div>
+            <span class="contact-card__label">LinkedIn</span>
+            <span class="contact-card__value">Karim Elroby</span>
+          </a>
+          <a class="contact-card" href="tel:+201140620646">
+            <div class="contact-card__icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.37 1.9.72 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.35 1.85.59 2.81.72A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <span class="contact-card__label">Phone</span>
+            <span class="contact-card__value">+20 114 062 0646</span>
+          </a>
+        </div>
+
+        <div class="contact__cta">
+          <a class="btn btn--primary" href="mailto:karimelroby20@gmail.com">
+            Send me an email
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>© <span id="year"></span> Karim Khaled Elorby — Built with HTML, CSS &amp; JS.</div>
+    <a href="#top" class="footer__top">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
