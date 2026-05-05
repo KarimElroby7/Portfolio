@@ -1,4 +1,4 @@
-# Project Analysis — Top Projects from Karim Elorby's Portfolio
+# Project Analysis — Top Projects from Karim Elroby's Portfolio
 
 This document positions your strongest work for recruiters. Each entry is written so a hiring manager skimming for 30 seconds can see **what was built, why it's hard, and why it matters**.
 
