@@ -1,5 +1,5 @@
 /* ============================================================
-   Karim Elorby — Portfolio JS
+   Karim Elroby — Portfolio JS
    - Sticky nav state
    - Mobile menu
    - Scroll-spy active link
