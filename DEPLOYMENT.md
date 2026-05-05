@@ -59,7 +59,7 @@ Repo name **`karimelroby7.github.io`** gets you the cleanest URL: <https://karim
 ```bash
 cd /d/Other/pr
 git init
-git add index.html style.css script.js assets/ "Karim Elorby CV.pdf"
+git add index.html style.css script.js assets/ "Karim Elroby CV.pdf"
 git commit -m "Initial portfolio site"
 git branch -M main
 git remote add origin https://github.com/KarimElroby7/karimelroby7.github.io.git
@@ -92,7 +92,7 @@ After Pages reports the build green:
 4. Hover the project cards — cursor-tracked glow should track your mouse.
 5. Click **Resume ↗** in the nav and **Download Resume** in the hero — both should serve the PDF.
 
-If the CV link 404s, confirm `Karim Elorby CV.pdf` is committed and the filename in `index.html` matches (spaces are URL-encoded as `%20`).
+If the CV link 404s, confirm `Karim Elroby CV.pdf` is committed and the filename in `index.html` matches (spaces are URL-encoded as `%20`).
 
 ---
 
@@ -111,7 +111,7 @@ GitHub Pages rebuilds on every push to `main`. The new version is usually live i
 
 ## Part E — Optional polish
 
-- **Custom domain** (e.g. `karimelorby.com`): Settings → Pages → Custom domain. Add a `CNAME` DNS record pointing to `KarimElroby7.github.io`. Enable **Enforce HTTPS**.
+- **Custom domain** (e.g. `karimelroby.com`): Settings → Pages → Custom domain. Add a `CNAME` DNS record pointing to `KarimElroby7.github.io`. Enable **Enforce HTTPS**.
 - **Open-Graph preview image:** save `assets/og.png` (1200×630) and add `<meta property="og:image" content="assets/og.png">` to the `<head>` so links shared on LinkedIn/Twitter render a card.
 - **Favicon:** drop `assets/favicon.svg`, add `<link rel="icon" href="assets/favicon.svg">` in `<head>`.
 - **Analytics:** drop a [Plausible](https://plausible.io) or [Umami](https://umami.is) script tag right before `</body>` for privacy-friendly visitor tracking.
@@ -129,6 +129,6 @@ GitHub Pages rebuilds on every push to `main`. The new version is usually live i
 | `README.md` | Your new GitHub profile README |
 | `PROJECT_ANALYSIS.md` | Recruiter-facing project breakdown + positioning advice |
 | `DEPLOYMENT.md` | This guide |
-| `Karim Elorby CV.pdf` | Your CV (referenced by the Resume / Download Resume buttons) |
+| `Karim Elroby CV.pdf` | Your CV (referenced by the Resume / Download Resume buttons) |
 
 You're ready to ship.
